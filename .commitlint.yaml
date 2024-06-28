@@ -1,0 +1,29 @@
+# Commit message header minimum length of 10 characters.
+# The format is: [severity, condition, value]
+
+header-min-length: [2, 'always', 10]
+
+# Commit message header maximum length of 50 characters.
+# The format is: [severity, condition, value]
+
+header-max-length: [2, 'always', 50]
+
+# Commit message body maximum length of 72 characters.
+# This helps maintain readability in various tools and interfaces that display commit messages.
+
+body-max-line-length: [2, 'always', 72]
+
+# Commit message header maximum body of 72 characters. characters.
+# This maintains consistency and readability in the footer section.
+
+footer-max-line-length: [2, 'always', 72]
+
+# Enforces the type of commit, must be one of the specified values.
+# It ensures that commit messages follow a consistent and recognizable pattern.
+
+type-enum: [2, 'always', ['feat', 'fix', 'docs', 'style', 'refactor', 'perf', 'test', 'build', 'ci', 'chore', 'revert']]
+
+# This sets the default severity level for the rules. If a rule is violated, it will be treated as an error.
+
+severity:
+  default: error
