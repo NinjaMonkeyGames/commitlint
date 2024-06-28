@@ -2,15 +2,15 @@
 
 ## What is this repository for? ##
 
-The purpose of this repository is to maintain control over versions of Commitlint. This maintains uniformity when enforcing
-coding standards and formatting rules. This allows for easier upgrades and prevents newer versions from breaking the
-pipeline.
+The purpose of this repository is to maintain control over versions of Commitlint. This maintains uniformity when
+enforcing coding standards and formatting rules. This allows for easier upgrades and prevents newer versions from
+breaking the pipeline.
 
 ---
 
 ## Configuration information ##
 
-There is a '.commitlint.yaml' file containing the CSpell configuration in the root of the project directory. You can
+There is a '.commitlint.yaml' file containing the Commitlint configuration in the root of the project directory. You can
 use the following YAML line to copy this into your project directory.
 
 ```shell
@@ -61,7 +61,7 @@ See links below for more information about Commitlint and Alpine Linux.
 
 | File Or Folder Name:                  | Files | Description Of File Or Folder Contents                               |
 |---------------------------------------|-------|----------------------------------------------------------------------|
-| .commitlint.yaml                      |   1   | Contains CSpell configuration.                                       |
+| .commitlint.yaml                      |   1   | Contains Commitlint configuration.                                   |
 | > .git                                |   95  | Contains git configuration files.                                    |
 | > .github > workflows > pipeline.yml  |   1   | Lints commit message.                                                |
 | dockerfile                            |   1   | Information on how to build docker.                                  |
@@ -79,6 +79,7 @@ This project uses a sequential versioning system.
 | Version No:    | Description Of Update                                                                               |
 |----------------|-----------------------------------------------------------------------------------------------------|
 | 0.0.0.0        | Base files included.                                                                                |
+| 0.0.0.1        | Updated .commitlint.yaml to point to main server monkeyknuckles/commitlint.                         |
 
 ---
 
